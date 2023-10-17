@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container, .right{
+    display: flex;
+    align-items: center;
+}
+.container{
+    justify-content: space-between;
+}
+.right{
+    gap: 20px;
+    margin-right: 20px;
+}
+.logo-instagram{
+    width: 130px;
+    height: 80px;
+    margin-left: 8px;
+}
+.profile{
+    position: relative;
+    width: 76px;
+    height: 76px;
+    border-radius: 50%;
+    border: 0.5px solid gray;
+    padding: 3px;
+}
+.profile-name{
+    font-size: 10px;
+    text-align: center;
+}
+.history{
+    display: flex;
+    justify-content: space-around;
+}
+.add{
+    position: absolute;
+    margin-top: 52px;
+    margin-left: -20px;
+    z-index: 2;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+}
+.icon-1 {
+    display: inline-block;
+    width: 1.3em;
+    height: 1.3em;
+    stroke-width: 0;
+    stroke: white;
+    fill: rgb(0, 162, 255);
+    background-color: white;
+    border-radius: 50%;
+}
+.icon-2 {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+}
+.clickable-svg {
+    cursor: pointer;
+}
+
+.clickable-svg:active{
+    fill: red; 
+}
+
+.post-titles{
+    display: flex;
+}
+.post-left{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.post-header, .icons{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 10px 0 10px;
+}
+.post-right{
+    margin-top: 18px;
+}
+.post-icon{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+span{
+    color: gray;
+    margin-left: 5px;
+}
+.post-img{
+    width: 393px;
+    height: 360px;
+    object-fit: cover;
+}
+.icons-left{
+    display: flex;
+    gap: 15px;
+}
